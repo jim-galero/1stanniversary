@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Letter</title>
+
+<style>
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: serif;
+    position: relative;
+	
+	background-image: url("backgroundimg3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    padding: 80px 20px;
+    box-sizing: border-box;
+}
+
+.letter {
+    background-color: white;
+    padding: 40px;
+    width: 90%;
+    max-width: 700px;
+
+    border: 5px solid #96C6FF;
+    border-radius: 15px;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Lucida Handwriting;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.back-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+
+    color: black;
+    background-color: white;
+
+    padding: 8px 12px;
+    border: 2px solid #60A7F7;
+    border-radius: 8px;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+    transition: 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #60A7F7;
+    color: white;
+}
+
+button {
+    display: block;
+    margin: 30px auto 0 auto;
+    padding: 15px 30px;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    border: none;
+    border-radius: 10px;
+
+    background-color: #60A7F7;
+    color: white;
+
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: white;
+    color: #60A7F7;
+    border: 2px solid #60A7F7;
+}
+
+.signature {
+    text-align: right;
+    margin-top: 30px;
+    font-style: italic;
+}
+
+/* Mobile adjustments */
+
+@media (max-width: 768px){
+
+    .letter{
+        padding: 25px;
+        width: 95%;
+    }
+
+    h1{
+        font-size: 24px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+
+    button{
+        width: 100%;
+    }
+
+}
+
+</style>
+
+<script>
+function redirectToPage(pageName){
+    window.location.href = pageName + '.html';
+}
+</script>
+
+</head>
+
+<body>
+
+<a href="javascript:history.back()" class="back-button">
+← Back
+</a>
+
+<div class="letter">
+
+<h1>1st Anniversary💖</h1>
+
+<br>
+
+<p>
+Dear Bubba,
+</p>
+
+<br>
+
+<p style="text-indent:75px;">
+I'm so glad that we've been together for a year already. I'm so thankful and blessed that you're in my life. The past year hasn't been easy for us.
+It was a rollercoaster of emotions, full of joy, hope, despair, unexpected challenges, and uncertainty along the way.
+But I am glad and grateful that I've gone through all those challenges and experiences with you, mahal.
+</p>
+
+<p>
+Yet, we're still here, still standing strong, still fighting for our relationship,
+still giving it our all and continuously growing and loving each other more and more as every day goes by.
+I just want to let you know that I am and will always be here for you, not only physically, but also emotionally.
+I know our previous fights and arguments have not been easy, that the tables have turned, but please know that I would always love you and I would always choose you every day.
+Know that this feeling and love that I have for you and for our relationship would never fade.
+You are the best thing that's happened in my 22 years of living in this lifetime.
+</p>
+
+<p>
+Just like Ben&Ben said in their song, you are home, mahal.
+<br>You bring sanity in this chaotic world.
+<br>Ang sarap <b>magmahal</b> ng isang Shanley Vanesca Arcilla.
+<br>Ang sarap <b>mahalin</b> ng isang Shanley Vanesca Arcilla.
+<br><br>I know this anniversary is just the beginning. Alam ko madami pa nakahain para satin over the next few years of our lifetime.
+For you, for myself, for us, I would always strive and choose to be a better <b><u>man</u></b>, a better <b><u>partner</u></b>, a better <b><u>person</u></b>.
+</p>
+
+<p>
+Our first anniversary is just the start of one of our happiest and most memorable moments that we will forever cherish in our whole lives.
+Thank you for simply being you.
+Thank you for always loving me unconditionally, even despite all the hardships that we have faced together.
+Thank you for coming into my life during the moment when I wasn't looking for anything.
+You're more than just my partner to me.
+</p>
+
+<p>
+You're my bestfriend for life, my human diary, my sanity, my daily reminder that there are always good things in life, that prayers, miracles and blessings do happen and come true.
+You're the best.
+You are my answered prayer.
+</p>
+
+<p>
+Mahal na mahal kita palagi, Ba.
+</p>
+
+<p class="signature">
+Love, Jim ❤️
+</p>
+
+<button onclick="redirectToPage('memories')">
+Next
+</button>
+
+</div>
+
+</body>
+</html>

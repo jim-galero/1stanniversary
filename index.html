@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Website</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+	  
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center ;
+	  background-image: url("backgroundimg.jpg");
+	  
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  height: 100vh;
+	  flex-direction: column;
+    }  
+	
+    header {
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }  
+	
+	h1 {
+	  font-family: Lucida Handwriting;
+	  color: white;
+	}
+	
+    main {
+      padding: 20px;
+    }
+	
+	h2 {
+	  font-family: serif;
+	  font-size: 15px; 3;
+	  font-style: italic;
+	  font-weight: normal;
+	  color: white;
+	}
+	
+	p {
+	  font-family: serif;
+	  font-size: 16px; 3;
+	  font-style: italic;
+	  font-weight: normal;
+	  color: white;
+	}
+	
+	button {
+	  padding: 15px 30px;
+      font-size: 17px; 3
+      font-weight: bold;
+      border: 2px solid transparent;
+      border-radius: 10px;
+      background-color: #60A7F7;
+      color: white;
+      cursor: pointer;
+      transition: all 0.3s ease;
+	}
+	
+	button:hover {
+	  background-color: white;
+  	  color: #60A7F7;
+  	  border: 2px solid #60A7F7;
+	}
+
+  </style>
+  
+  <script>
+    function redirectToPage(pageName) {
+      window.location.href = pageName + '.html';
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>1ST ANNIVERSARY.</h1>
+  </header>
+  <main>
+	<h2>Hi, Bubba!</h2>
+	<p>Our most awaited day has finally came.</p>
+	<p>Ang sarap sabihin at basahin yung salitang "<b>Happy Anniversary, mahal ko.</b>"</p>
+	<p>I planned to create this website para pwede mo 'to palagi balik-balikan as a memory from our 1st Anniversary.</p>
+	<p>I hope you'll love it. Again, happy anniversary mahal ko. I love you so much!</p>
+	
+	<br>
+	<br>
+	<br>
+	<br>
+	
+    <button onclick="redirectToPage('termsandregulation')"style="font-weight: bold;">Next</button>
+	<p style="font-size: 14px;">Press this button above to proceed to the next part.</p>
+  </main>
+</body>
+</html>
